@@ -5,7 +5,7 @@
   "author": "lin-xin <2981207131@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node build/dev-server.js --profile --colors",
     "build": "node build/build.js",
     "build:dll": "webpack --config build/webpack.dll.conf.js"
   },
