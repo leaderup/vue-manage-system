@@ -35,9 +35,6 @@
                 }
             }
         },
-        mounted: function(){
-            console.log('*******************', VueSimplemde);
-        },
         components: {
             markdownEditor
         }
